@@ -1,0 +1,63 @@
+<!-- DOCTYPE always comes first in the document to tell the browser what type of document this is -->
+<!DOCTYPE html>
+<!-- root HTML element wraps the entire page -->
+<html lang='en'>
+	<!-- head section nested directly below the root element. This is for the descriptive elements about the document -->
+	<head>
+		<meta charset='utf-8'>
+		<title>Title Shows Up in Browser Tab</title>
+
+	</head>
+	<!-- body section also nests directly below the root element. This contains the content displayed by the browser -->
+    <body>
+
+          <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+
+            <h2>Contact Us</h2>
+                <p>If you have further questions, comments, or concerns, please contact us by filling out the information below:</p>
+          
+            <!-- Subject input (required, max length) -->
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" maxlength="100" required><br><br>
+          
+            <!-- Email input (required, with placeholder and pattern) -->
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email"
+                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
+          
+            <!-- Phone number input (optional, with placeholder and pattern) -->
+            <label for="phone">Phone number (optional):</label>
+            <input type="tel" id="phone" name="phone"
+                   pattern="\d{3}[-]\d{3}[-]\d{4}"><br><br>
+          
+            <!-- Inquiry body textarea (required) -->
+            <label for="message">Your message to us:</label><br>
+            <textarea id="message" name="message" rows="6" cols="40" required></textarea><br><br>
+          
+            <!-- Radio buttons (email is default)-->
+            <label>Preferred Contact Method:</label><br>
+            <input type="radio" id="contactEmail" name="contact_method" value="Email" checked>
+            <label for="contactEmail">Email</label><br>
+            <input type="radio" id="contactPhone" name="contact_method" value="Phone">
+            <label for="contactPhone">Phone</label><br><br>
+          
+            <!-- Checkboxes -->
+            <label>Reason for contact:</label><br>
+            <input type="checkbox" id="topicGeneral" name="interest" value="General">
+            <label for="topicGeneral">General Inquiry</label><br>
+            <input type="checkbox" id="topicSupport" name="interest" value="Support">
+            <label for="topicSupport">Support Request</label><br><br>
+          
+            <!-- Date input -->
+            <label for="date">Preferred Contact Date:</label>
+            <input type="date" id="date" name="preferred_date"><br><br>
+          
+            <!-- Buttons -->
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+          
+          </form>
+          
+    </body>
+
+</html>
