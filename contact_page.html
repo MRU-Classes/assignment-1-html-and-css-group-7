@@ -6,22 +6,30 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>Contact Us</title>
-    <link rel="stylesheet" href="css/styling.css">
+    <link rel="stylesheet" href="css/contact_styling.css">
 
 	</head>
 	<!-- body section also nests directly below the root element. This contains the content displayed by the browser -->
     <body>
 
-        <!-- Navigation Menu -->
-        <nav>
-          <li><a href="main_page.html">Return Home</a></li>
-          <li><a href="course_page.html">Courses Page</a></li>
-          <li><a href="schedules_page.html">Possible Schedules</a></li>
-          <li><a href="careers_page.html">Possible Careers</a></li>
-          <li><a href="contact_page.html">Contact Us</a></li>
-          </ul>
-        </nav>
-
+        <header>
+            <div class="box"></div>
+            <a href="main_page.html" style="text-decoration: none; color: inherit;">
+            <img id = "logo", src = 'images/loula_logo.jpg' width = '169.66' height = '62' alt = 'group logo'>
+            </a>
+            <h1 class="main_header"> CONTACT US </h1>
+            <div id="options_box"></div>
+            <div class="box"></div>
+            <br>
+            <!-- Navigation Menu -->
+            <nav>
+              <li id="return_home"><a href="main_page.html">Return Home</a></li>  
+              <li id="schedules"><a href="schedules_page.html">Possible Schedules</a></li>
+                <li id="possible_careers"><a href="careers_page.html">Possible Careers</a></li>
+                <li id="courses"><a href="course_page.html">Courses</a></li>
+            </nav>
+            <br>
+        </header>
           <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
 
             <h2>Contact Us</h2>
