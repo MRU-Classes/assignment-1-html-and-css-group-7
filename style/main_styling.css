@@ -22,7 +22,7 @@ h1 {
     max-width: 500px;
     margin: 0 auto;
     top: 400px;
-    left: 250px;
+    left: 150px;
 }
 
 h2 {
@@ -114,7 +114,7 @@ nav a{
     position: absolute;
     left: 200px;
     height: 2px;
-    width: 1500px;
+    width: 1150px;
     background-color: #D3D0CB;
 }
 
@@ -134,14 +134,14 @@ body {
     background-color: #9fb1bc;
     position: absolute;
     top: 1150px;
-    left: 190px;
+    left: 60px;
 }
 
 #img_caption1{
     font-weight: bold;
     position: absolute;
     top: 1160px;
-    left: 290px;
+    left: 160px;
     color: #ffffff;
     font-size: 20px;
 }
@@ -149,7 +149,7 @@ body {
 #img1{
     position: absolute;
     top: 1190px;
-    left: 200px;
+    left: 70px;
 }
 
 #box_image2{
@@ -159,14 +159,14 @@ body {
     background-color: #9fb1bc;
     position: absolute;
     top: 1150px;
-    left: 610px;
+    left: 410px;
 }
 
 #img_caption2{
     font-weight: bold;
     position: absolute;
     top: 1160px;
-    left: 700px;
+    left: 510px;
     color: #ffffff;
     font-size: 20px;
 }
@@ -174,7 +174,7 @@ body {
 #img2{
     position: absolute;
     top: 1190px;
-    left: 620px;
+    left: 420px;
 }
 
 #box_image3{
@@ -184,14 +184,14 @@ body {
     background-color: #9fb1bc;
     position: absolute;
     top: 1150px;
-    left: 1010px;
+    left: 760px;
 }
 
 #img_caption3{
     font-weight: bold;
     position: absolute;
     top: 1160px;
-    left: 1080px;
+    left: 840px;
     color: #ffffff;
     font-size: 20px;
 }
@@ -199,7 +199,7 @@ body {
 #img3{
     position: absolute;
     top: 1190px;
-    left: 1020px;
+    left: 770px;
 }
 
 #box_image4{
@@ -209,14 +209,14 @@ body {
     background-color: #9fb1bc;
     position: absolute;
     top: 1150px;
-    left: 1410px;
+    left: 1110px;
 }
 
 #img_caption4{
     font-weight: bold;
     position: absolute;
     top: 1160px;
-    left: 1480px;
+    left: 1170px;
     color: #ffffff;
     font-size: 20px;
 }
@@ -224,7 +224,7 @@ body {
 #img4{
     position: absolute;
     top: 1190px;
-    left: 1420px;
+    left: 1120px;
 }
 
 .blank-space {
