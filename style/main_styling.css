@@ -17,7 +17,12 @@ h1 {
     left: 20px;
 }
 .description {
+    position:absolute;
     font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    top: 400px;
+    left: 250px;
 }
 
 h2 {
@@ -27,7 +32,8 @@ h2 {
 
 h3 {
     color: #6E8898;
-    text-align: center;
+    max-width: 100px;
+    margin: 0 auto;
 }
 
 p{
@@ -127,22 +133,22 @@ body {
     border: 3px solid #2E5266;
     background-color: #9fb1bc;
     position: absolute;
-    top: 800px;
+    top: 1150px;
     left: 190px;
 }
 
 #img_caption1{
     font-weight: bold;
     position: absolute;
-    top: 810px;
-    left: 300px;
+    top: 1160px;
+    left: 290px;
     color: #ffffff;
     font-size: 20px;
 }
 
 #img1{
     position: absolute;
-    top: 840px;
+    top: 1190px;
     left: 200px;
 }
 
@@ -152,14 +158,14 @@ body {
     border: 3px solid #2E5266;
     background-color: #9fb1bc;
     position: absolute;
-    top: 800px;
+    top: 1150px;
     left: 610px;
 }
 
 #img_caption2{
     font-weight: bold;
     position: absolute;
-    top: 810px;
+    top: 1160px;
     left: 700px;
     color: #ffffff;
     font-size: 20px;
@@ -167,7 +173,7 @@ body {
 
 #img2{
     position: absolute;
-    top: 840px;
+    top: 1190px;
     left: 620px;
 }
 
@@ -177,14 +183,14 @@ body {
     border: 3px solid #2E5266;
     background-color: #9fb1bc;
     position: absolute;
-    top: 800px;
+    top: 1150px;
     left: 1010px;
 }
 
 #img_caption3{
     font-weight: bold;
     position: absolute;
-    top: 810px;
+    top: 1160px;
     left: 1080px;
     color: #ffffff;
     font-size: 20px;
@@ -192,7 +198,7 @@ body {
 
 #img3{
     position: absolute;
-    top: 840px;
+    top: 1190px;
     left: 1020px;
 }
 
@@ -202,14 +208,14 @@ body {
     border: 3px solid #2E5266;
     background-color: #9fb1bc;
     position: absolute;
-    top: 800px;
+    top: 1150px;
     left: 1410px;
 }
 
 #img_caption4{
     font-weight: bold;
     position: absolute;
-    top: 810px;
+    top: 1160px;
     left: 1480px;
     color: #ffffff;
     font-size: 20px;
@@ -217,7 +223,15 @@ body {
 
 #img4{
     position: absolute;
-    top: 840px;
+    top: 1190px;
     left: 1420px;
 }
 
+.blank-space {
+  height: 300px;
+}
+
+#two_frens{
+    float:right;
+    margin-left: 20px;
+}
